@@ -1,0 +1,47 @@
+print("Bem-vindo(a) ao verificador Fibonacci do Pedro. Esse verificador foi criado para o processo seletivo de Estágio"
+      "da Target Sistemas")
+
+def recebernumerodigitadopelousuario():
+    while True:
+        numerodigitadopelousuario = input("Digite um número para saber se ele pertence ou não ao conjuto Fibonacci.")
+        try:
+            i = int(numerodigitadopelousuario)
+            if i < 0:
+                print("Você digitou um número negativo!")
+            else:
+                print("Verificando...")
+                return numerodigitadopelousuario
+        except ValueError:
+            print("Você digitou um caractere!")
+
+
+def verificarnumerodigitadopelousuario(x):
+    a, b = 0, 1
+    while b < x:
+        a, b = b, a + b
+    if b == x:
+        return True
+    else:
+        return False
+
+
+def imprimirsentencadepertencimento(numerodigitadopelousuario, listafibonacci):
+    if verificarnumerodigitadopelousuario(numerodigitadopelousuario):
+        print("O número {} pertence à sequência de fibonacci".format(numerodigitadopelousuario))
+    else:
+        print("O número {} não pertence à sequência de fibonacci".format(numerodigitadopelousuario))
+    print("Esses são os elementos da lista que pertencem ao que você digitou: {} ".format(listafibonacci))
+
+
+def criarlistafibonacci(numerodigitadopelousuario):
+    listafibonacci = [0]
+    a, b = 0, 1
+    while b <= numerodigitadopelousuario:
+        listafibonacci.append(b)
+        a, b = b, a + b
+    return listafibonacci
+
+
+numerodigitadopelousuario = int(recebernumerodigitadopelousuario())
+listafibonacci = criarlistafibonacci(numerodigitadopelousuario)
+imprimirsentencadepertencimento(numerodigitadopelousuario, listafibonacci)
