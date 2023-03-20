@@ -1,0 +1,41 @@
+Ao momento do cruzamento, ambos estarão aproximadamente na mesma distância da cidade de Ribeirão Preto. 
+A distância da cidade é 61,55 km para os dois veículos.
+
+
+
+Para realizar o cálculo, utilizei a fórmula de posição para o Movimento Retilínio Uniforme.
+A fórmula utilizada para definir a posição de ambos os veículos é = S = So + V . t
+Logo, para encontrarmos o momento em que se cruzam, basta igualar X1 (Posição do carro) e X2 (Posição do caminhão).
+Achando o momento em que o cruzamento acontece, podemos descobrir a posição em que foi feito o cruzamento.
+Para encontrar o momento que ocorreu o cruzamento, utilizei:
+
+A posição do carro pelo MRU é igual a X1 = SoX1 + VX1 . t :
+-> Posição inicial SoX1 = 0 (Levando em conta que ele sai de Ribeirão Preto)
+-> Vx1 = 110km/h ou 30.5m/s.
+Logo, X1 = 0 + 30.5 . t
+
+A posição do caminhão pelo MRU é igual a X2 = SoX2 + VX2 . t :
+-> Posição inicial SoX2 = 100 km ou 100000 metros (Levando em conta que ele sai de Franca)
+-> Vx2 = 68,57km/h ou 19.05m/s (A velocidade inicial era 80km/h, porém, com as duas paradas de 5 minutos, totalizou 80km em 70 minutos, logo: 68.57km/h).
+Logo, X2 = 100000 - 19.05 . t 
+
+Para descobrirmos a posição em que se cruzam, vamos primeiro descobrir em qual instate isso acontece, igualando as duas sentenças.
+
+X1 = X2
+0 + 30.5 . t = 100000 - 19.05 . t 
+49,55.t = 100000
+t= 100000/49,55
+t = 2018s
+-> O valor encontrado foi 2018s (Está em segundos pois transformei de Km/h para m/s, para entrar no padrão do MRU.)
+
+Logo, descobrimos que os dois veículos se cruzam ao momento de 2018s.
+Para calcular onde estavam os veículos nesse momento, basta substituímos o valor t nas mesmas equações.
+
+X1 = 0 + 30.5 . t
+X1 = 0 + 30.5 . 2018
+X1 =~ 61550 m da posição inicial (Ribeirão Preto) e 38450 m da Posição Final (Franca)
+
+X2 = 100000 - 19.05 . t 
+X2 = 100000 - 19.05 . 2018
+X2 = 100000 - 38443
+X2 =~ 61550 m da posição final (Ribeirão Preto) e 38450 m da posição inicial (Franca)
