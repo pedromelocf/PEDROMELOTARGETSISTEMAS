@@ -1,7 +1,7 @@
 # Etapa Técnica do Desafio Target
 ## Candidato: Pedro Melo Cavalcanti Filho
 
-## Questões do teste
+## Questões do teste (Respostas por questão estão no Repositório)
 
 1) Observe o trecho de código abaixo:
 
