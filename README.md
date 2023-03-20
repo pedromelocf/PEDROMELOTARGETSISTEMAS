@@ -1,4 +1,5 @@
-# Etapa Técnica do Desafio Target do candidato Pedro Melo Cavalcanti Filho
+# Etapa Técnica do Desafio Target
+# Candidato: Pedro Melo Cavalcanti Filho
 
 1) Observe o trecho de código abaixo:
 
