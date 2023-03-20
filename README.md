@@ -1,5 +1,7 @@
 # Etapa Técnica do Desafio Target
-# Candidato: Pedro Melo Cavalcanti Filho
+## Candidato: Pedro Melo Cavalcanti Filho
+
+## Questões do teste
 
 1) Observe o trecho de código abaixo:
 
@@ -78,3 +80,4 @@ b) Evite usar funções prontas, como, por exemplo, reverse;
 
 
 NÃO SE ESQUEÇA DE INSERIR O LINK DO SEU REPOSITÓRIO NO GITHUB COM O CÓDIGO FONTE QUE VOCÊ DESENVOLVEU .
+
