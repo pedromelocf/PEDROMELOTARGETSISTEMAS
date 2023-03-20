@@ -1,0 +1,3 @@
+print("Bem-vindo(a) ao invertedor de textos")
+textodigitadopelousuario = input("Digite o texto que deseja inverter.")
+print("A string invertida é '{}'".format(textodigitadopelousuario[::-1]))
